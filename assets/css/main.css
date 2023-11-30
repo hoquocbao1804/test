@@ -1,0 +1,100 @@
+.container_bao{
+  display: grid;
+  grid-template-columns: 550px 474px;
+  justify-content: center;
+  overflow: hidden;
+  
+
+  margin-top: 40px;
+}
+div.item-bao{
+   border: 5px solid white;
+   height : 360px;
+   
+}
+div.item-1{
+   background: url('../assets/img/Mới\ sa\ thải\ 1\ ngày\,\ OpenAI\ đàm\ phán\ mời\ ‘cha\ đẻ’\ ChatGPT\ quay\ lại\ làm\ việc.webp');
+   
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   
+}
+
+.headRight-item-bao{
+   background: url('../assets/img/Mbappe\ lập\ hat-trick\ giúp\ Pháp\ thắng\ kỷ\ lục\ 14-0.webp');
+   background-size: cover;  
+   background-position-y: -20px;
+   position: relative;
+   
+  
+
+}
+.bottomRight-item-bao-left{
+   background: url('../assets/img/Nga\ nối\ lại\ tấn\ công\ thủ\ đô\ Kiev\ sau\ 52\ ngày.webp');
+   background-size: cover;  
+   position: relative;
+   
+}
+.bottomRight-item-bao-rigth{
+   background: url('../assets/img/Máy\ lọc\ không\ khí\ Meliwa\ ‘thuyết\ phục’\ Shark\ Hùng\ Anh\ như\ thế\ nào.webp');
+   background-size: cover;  
+   margin-top: 3px;
+   position: relative;
+   
+}
+.style-bao  { 
+   background-color:rgba(255, 255, 255,0.7);
+   padding: 0 10;
+   width: 100%;
+   color: black;
+   font-weight: 700;
+   text-align: left;
+   position: absolute;
+   bottom: -78px;
+   transition: all 0.45s ease-in-out;
+   opacity: 0;
+   font-size: 15px;
+   list-style: none;
+   
+   
+}
+
+.container_bao:hover .style-bao{
+   bottom: 0;
+   opacity: 1;
+
+}
+.style-bao a { 
+   text-decoration: none;
+   color: black;
+}
+.style-bao a:hover{
+   box-shadow: 0 2px red;
+}
+
+/*_____________________ chatgpt _______________________ */
+wrapper1-bao{
+   padding: 0;
+   margin: 0;
+}
+.header-bao a{
+   display: flex;
+}
+.content-bao{
+   margin: auto;
+   max-width: 870px;
+   font-weight: 900;
+   
+}
+
+.content-bao p { 
+   font-size: 18px;
+}
+.content-bao h3{ 
+   color: darkgray;
+   margin-left: 150px;
+}
+.comment_bao{
+   display: flex;
+}
